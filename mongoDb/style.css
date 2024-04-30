@@ -1,0 +1,711 @@
+*
+{
+    padding:0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.upper-page
+{
+    height:95vh;
+    width:100%;
+}
+
+.nav-header p{
+    color:white;
+    padding-left: 3vw;
+    font-size:1.5rem;
+    color:orange;
+}
+
+.nav a{
+    color:white;
+    text-decoration: none;
+    padding-right: 3vw;
+    transition-duration: 1s;
+
+}
+
+.nav a:hover
+{
+    color:rgb(23, 166, 104);
+}
+
+.upper-page{
+    background-image: url(./assets/pg1.jpg);
+    height: 95vh;
+    width:100%;
+    background-size: cover;
+}
+.container
+{
+    display: flex;
+    justify-content:space-between;
+    padding-top:2vw;
+}
+.delux p{
+    color:red;
+}
+.para p{
+    color:white;
+}
+.container2{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:12vw;
+}
+
+.delux
+{
+    font-size:1.8rem;
+    line-height:5rem;
+}
+
+.para1
+{
+    font-size:2.5rem;  
+}
+
+.para1
+{
+    color:transparent;
+    -webkit-text-stroke:2px darkmagenta;
+    position: relative;
+}
+.para1 p::before
+{
+    content: "Discover your ideal study sanctuary. Book your PG room today!";
+    position:absolute;
+    width:0;
+    height: 100%;
+    overflow:hidden;
+    color:yellow;
+    border-right:8px solid darkkhaki;
+    transition: 1s ease-in-out;
+}
+
+.para1 p:hover::before{
+    width:100%;
+    filter: drop-shadow(0 0 25px darkkhaki);
+}
+
+
+
+.container4
+{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    height:3rem;
+    width:60%;
+    background-color: orange;
+    position: absolute;
+    right:20vw;
+    margin-top: 2vw;
+    border-radius:15px;
+}
+
+
+.container4:hover
+{
+    background-color: rgb(205, 136, 18);
+}
+
+.container3
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button
+{
+    padding:1vw 2vw 1vw 2vw;
+    cursor: pointer;
+    border-radius:2vw;
+    background-color:green;
+    color:white;
+    font-weight: 800;
+    border:none;
+    margin-top:2.5vw;
+}
+
+.btn button:hover{
+    background-color:blue;
+    color:black;
+    transition-duration: 1s;
+
+}
+
+.option select
+{
+   height:2rem;
+   border-radius:1.5rem;
+   background-color: orange;
+   border: none;
+}
+
+.option #check
+{
+   height:2rem;
+   border-radius:.5rem;
+   background-color: orange;
+   border:0.1rem solid white;
+}
+
+.option #out
+{
+   height:2rem;
+   border-radius:.5rem;
+   background-color: orange;
+   border: 2px solid white;
+}
+
+#sec
+{
+    width:100%;
+    height:100%;
+    background:linear-gradient(45deg,#dee1ca,#c6e7ed,#c5b2e9,#9ed1af);
+    background-size: 200% 200%;
+    animation: color 12s ease-in-out infinite;
+    
+}
+@keyframes color{
+    0%
+    {
+        background-position:0 50%;
+    }
+    50%
+    {
+        background-position:100% 50%;
+    }
+
+    100%
+    {
+        background-position: 0 50%;
+    }
+}
+
+.card1
+{
+   
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width:60%;
+    height:20vw;
+    margin-left:10vw;
+    margin-top: 5vw;
+    /* padding: 1rem; */
+    border-radius: 10px;
+    position: relative;
+    bottom: 1.5rem;
+
+}
+.card2
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width:60%;
+    height:20vw;
+    margin-left:30vw;
+    margin-top: 5vw;
+    /* padding: 1rem; */
+    border-radius: 10px;
+    position: relative;
+    bottom: 1.5rem;
+
+}
+.card3
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width:60%;
+    height:20vw;
+    margin-left:10vw;
+    margin-top: 5vw;
+    /* padding: 1rem; */
+    border-radius: 10px;
+    position: relative;
+    bottom: 1.5rem;
+
+}
+.card4
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width:60%;
+    height:20vw;
+    margin-left:30vw;
+    margin-top: 5vw;
+    /* padding: 1rem; */
+    border-radius: 10px;
+    position: relative;
+    bottom: 1.5rem;
+
+}
+
+.prize button
+{
+    position:absolute;
+    bottom:17.1vw;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+   
+
+}
+.prize2 button
+{
+    position:absolute;
+    top:17vw;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+   
+
+}
+
+.prize button:hover
+{
+    opacity: 1;
+}
+.prize2 button:hover
+{
+    opacity: 1;
+}
+
+
+
+
+.card1:hover
+{
+    box-shadow: 2px 2px 10px black;
+    transition-duration: 1s;
+    background-color: antiquewhite;
+
+
+}
+.card2:hover
+{
+    box-shadow: 2px 2px 10px black;
+    transition-duration: 1s;
+    background-color: antiquewhite;
+}
+.card3:hover
+{
+    box-shadow: 2px 2px 10px black;
+    transition-duration: 1s;
+    background-color: antiquewhite;
+}
+.card4:hover
+{
+    box-shadow: 2px 2px 10px black;
+    transition-duration: 1s;
+    background-color: antiquewhite;
+}
+
+.cont2 p 
+{
+    text-wrap:wrap;
+    font-weight:500;
+    font-size:2vm;
+    font-weight: 400;
+    line-height:1.8rem;
+    word-spacing:0.3rem;
+    margin-left:3vw;
+}
+
+.cont2 h2{
+    margin-left:3vw;
+    padding-bottom:1rem;
+}
+
+.cont1 img
+{
+    width:22vw;
+    height:20vw;
+    padding-top: 0.3rem;
+    border-radius: 10px 20px 20px 10px;;
+}
+
+.cont2 img
+{
+    width:22vw;
+    height:20vw;
+    padding-top: 0.3rem;
+    border-radius: 20px 10px 10px 20px;;
+}
+
+
+.heading p
+{
+    text-align: center;
+    font-size:2.4rem;
+    margin-top: 4rem;
+    padding-top:2rem;
+}
+
+.btn2 button
+{
+    padding:0.5rem;
+    margin-left:26vw;
+    margin-top: 0.5rem;
+    border-radius:10px;
+    background-color:greenyellow;
+    border: none;
+    color:white;
+    font-size:17px;
+    cursor: pointer;
+}
+
+.btn2 button a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.btn2 button:hover
+{
+    background-color: darkgreen;
+    transition-duration: 1s;
+}
+
+.pg-facilities
+{
+    width:100%;
+    height:95vh;
+    background-color: beige;
+    /* background-color: black; */
+    margin-top: 3rem;
+}
+
+.icons
+{
+    display:flex;
+    justify-content:space-around;
+    padding-top: 20px;
+    padding-bottom: 1.5rem;
+}
+
+.icons  i
+{
+    font-size:35px;
+    color: grey;
+}
+
+.icons  p
+{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.icons p:hover  
+{
+    color: orange;
+}
+i:hover  
+{
+    color: orange;
+}
+
+
+.para{
+    text-align: center;
+    font-size:3rem;
+    margin-top: 4rem;
+}
+
+.para p
+{
+    color:Black;
+}
+
+.flex-box
+{
+    width:100%;
+    height:100vh;
+    display:flex;
+    object-fit:cover;
+    justify-content: space-around;
+}
+
+.flex-box .item img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+
+.flex-box .item
+{
+    width:18rem;
+    height:70vh;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition:0.5s ease-in-out;
+}
+
+.item:hover
+{
+       transform: translate(20px);     
+
+}
+.item:before
+{
+    content:" ";
+    position: absolute;
+    top:0;
+    left:0;
+    display:block;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(to bottom,rgba(0,176,155,0.5),rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity:0;
+
+}
+
+.item:hover:before
+{
+    opacity:1;
+}
+
+
+.item .info
+{
+    position:relative;
+    z-index: 3;
+    color:#fff;
+    opacity:0;
+    transform: translateY(4px);
+    transition:0.5s all;
+
+    
+}
+.item:hover .info
+{
+    opacity:1;
+    transform: translateY(0px);
+    padding-bottom:2rem ;
+    padding-left: 1rem;
+}
+
+
+.item .info p
+{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top:8px;
+    margin-bottom: 20px;
+}
+
+.item .info .btn
+{
+    text-decoration: none;
+    padding:0.5rem  1rem;
+    background: #fff;
+    color:#000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: 0.4s ease-in-out;
+
+}
+
+.item .info .btn:hover
+{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+
+}
+
+
+
+.feedback
+{
+    height:70vh;
+    width:100%;
+    background-color:orange;
+    margin-top: 3rem;
+}
+
+.feed-cont{
+    display:flex;
+    justify-content: space-around;
+    padding-top:7rem;
+}
+
+.div1
+{
+    width:20rem;
+    height:14rem;
+    background-color:whitesmoke;
+    border-radius:10px;
+
+}
+
+.div1 p
+{
+    padding:1vw;
+    font-size:1.2rem;
+    text-wrap:balance;
+}
+
+.f 
+{
+    display: flex;
+    justify-content: right;
+}
+
+.f h4
+{
+    padding-right:1vw;
+}
+
+.f i
+{
+    padding-right:0.5vw;
+    color:green;
+    font-weight: 700;
+}
+
+.div1:hover{
+
+    box-shadow: 2px 2px 10px black;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+
+.f i:hover
+{
+    font-size:1.5rem;
+}
+
+.f h4:hover
+{
+    color:chartreuse;
+}
+
+
+.content p
+{
+    text-align: center;
+    font-size: 2rem;
+    color:black;
+    padding-top: 3rem;
+    word-spacing:0.3rem;
+
+}
+
+.photos
+{
+    width:100%;
+    height:80vh;
+    background-color: aliceblue;
+}
+
+
+.pt p
+{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.gallery
+{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+
+}
+
+.gallery .own 
+{
+    overflow: hidden;
+}
+
+.gallery .own img
+{
+    width:18rem;
+    height:18rem;
+    transition: 0.5s all ease-in-out;
+    border:5px solid green;
+    border-radius: 10px;
+
+}
+.gallery .own img:hover
+{
+    box-shadow: 2px 2px 10px black;
+}
+.gallery .own img:hover
+{
+    transform: scale(1.5);
+}
+
+.footer
+{
+    width:100%;
+    height:80vh;
+    background-color: grey;
+}
+
+.val1{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.val1 p,a
+{
+    line-height:1.5rem;
+}
+
+.val1 a
+{
+    text-decoration: none;
+    color:brown;
+}
+
+.value
+{
+    display:flex;
+    justify-content: space-around;
+    padding-top:12vw;
+}
+
+.input
+{
+    display:flex;
+    padding-top: 1rem;
+}
+
+.inp #r
+{
+    padding:0.5rem;
+}
+.input .btn4 button
+{
+    padding:0.5rem;
+}
+
+
+
+
